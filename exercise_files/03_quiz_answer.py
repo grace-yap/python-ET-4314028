@@ -29,7 +29,7 @@ def hexToDec(hexNum)
             return None
         
     converted = 0
-    exponent = len(hexNum) - 1 # gives the highest exponent of 16 in the numner
+    exponent = len(hexNum) - 1 # gives the highest exponent of 16 in the number
     for char in hexNum:
         converted = converted + (hexNumbers[char] * (16 ** exponent))
         exponent = exponent - 1

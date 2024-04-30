@@ -12,7 +12,7 @@ def factorial(num):
     else:
         return print(output)
 
-# alternative answer:
+### alternative answer:
 # def factorial(num):
 #     output = num
 #     if num == 0:
